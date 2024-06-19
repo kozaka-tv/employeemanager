@@ -12,11 +12,6 @@ import java.util.List;
 @RestController
 @RequestMapping("/employee")
 @AllArgsConstructor
-//TODO CORS hiba miatt kellett ezt beszurni, itt folyt!
-//TODO CORS hiba miatt kellett ezt beszurni, itt folyt!
-//TODO CORS hiba miatt kellett ezt beszurni, itt folyt!
-//TODO CORS hiba miatt kellett ezt beszurni, itt folyt!
-//TODO CORS hiba miatt kellett ezt beszurni, itt folyt!
 @CrossOrigin(origins = "http://localhost:4200")
 public class EmployeeResource {
     private final EmployeeService employeeService;
@@ -48,16 +43,3 @@ public class EmployeeResource {
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
